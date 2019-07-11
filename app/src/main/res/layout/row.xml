@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/loginDB"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:textSize="12sp" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/passwordDB"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:textSize="12sp" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/emailDB"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:textSize="12sp" />
+</LinearLayout>
